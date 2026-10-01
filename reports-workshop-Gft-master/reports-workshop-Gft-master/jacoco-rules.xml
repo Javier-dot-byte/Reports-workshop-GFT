@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jacoco xmlns="http://www.jacoco.org/jacoco/core/0.8"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.jacoco.org/jacoco/core/0.8">
+    <check>
+        <rule element="PACKAGE">
+            <includes>
+                <include>com/gft/reporting/domain/**</include>
+            </includes>
+            <excludes>
+                <exclude>**/*Id</exclude>
+            </excludes>
+            <limit counter="LINE" value="COVEREDRATIO" minimum="1.00"/>
+            <limit counter="BRANCH" value="COVEREDRATIO" minimum="1.00"/>
+        </rule>
+    </check>
+</jacoco>

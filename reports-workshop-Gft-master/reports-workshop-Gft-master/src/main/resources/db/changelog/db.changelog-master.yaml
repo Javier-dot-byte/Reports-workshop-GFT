@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/changes/001-create-event-log.sql
+      relativeToChangelogFile: false
+  - include:
+      file: db/changelog/changes/002-create-blocked-order.sql
+      relativeToChangelogFile: false
